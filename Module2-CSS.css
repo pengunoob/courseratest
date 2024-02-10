@@ -1,7 +1,7 @@
 #Comic{font-family: "Comic Sans MS", "Comic Sans", cursive;}
 h1{text-align: center;}
 
-div{background-color: lightgray; border: 2px solid black;margin: 20px}
+div{background-color: lightgray; border: 2px solid black;margin: 20px; width: 400px}
 h2{border-top:0px;border-left:0px; border-right: 2px; border-bottom:2px; border-style: solid; border-color: black;margin:0}
 #chicken{background-color: pink; width: 90px}
 #beef{background-color: rgb(190, 103, 103); width: 60px}
