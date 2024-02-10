@@ -1,2 +1,8 @@
-h1{font-family: "Comic Sans MS", "Comic Sans", cursive;}
+#Comic{font-family: "Comic Sans MS", "Comic Sans", cursive;}
 h1{text-align: center;}
+
+div{background-color: lightgray; border: 2px solid black;margin: 20px}
+h2{border: 2px solid black;}
+#chicken{background-color: pink; width: 90px}
+#beef{background-color: rgb(190, 103, 103); width: 60px}
+#sushi{background-color: rgb(209, 209, 139); width: 70px}
