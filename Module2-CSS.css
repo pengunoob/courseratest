@@ -1,5 +1,8 @@
 
-h1{text-align: center;font-family: "Comic Sans MS", "Comic Sans", cursive;margin-right:800px}
+h1{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-left:800px;
+}
 
 div{background-color: lightgray; border: 2px solid black; width: 400px;height:175px ;font-family: "Comic Sans MS", "Comic Sans", cursive; float: left;align-self:center;}
 h2{border-top:0px;border-left:2px; border-right: 0px; border-bottom:2px; border-style: solid; border-color: black;margin:0;float: right}
@@ -21,14 +24,35 @@ h2{border-top:0px;border-left:2px; border-right: 0px; border-bottom:2px; border-
 
 }
 #b{
+    position: relative;
     margin:85px;
     
 }
 @media (min-width: 768px) and (max-width:1750px){
-    #s{width:75%;height:110px;margin-top:20px;float:left;}
+    #s{width:75%;height:110px;margin-top:20px;float:left;margin:50px}
+    #b{margin:50px}
+    #c{margin:50px}
+    h1{
+        margin-left: 450px;
+    }
 }
-@media (min-width: 200px) and (max-width:768px){
+@media (min-width:863px) and (max-width:1163px)
+{
+    #c{margin:10px}
+    #b{margin:10px}
+    #s{margin:10px;width:400px;height:175px;}
+    h1{margin-left:350px}
+}
+@media (min-width:768px) and (max-width:862px)
+{
+    #c{margin:10px}
+    #b{margin:10px}
+    #s{margin:10px;width:400px;height:175px;}
+    h1{margin-left:100px}
+}
+@media (min-width: 200px) and (max-width:767px){
     div{margin-top:10px;margin-right:10px;margin-left:10px}
+    h1{margin-left:100px}
     #c{margin:10px}
     #s{margin:10px}
     #b{margin:10px}
