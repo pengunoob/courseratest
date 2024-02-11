@@ -1,7 +1,7 @@
 
-h1{text-align: center;font-family: "Comic Sans MS", "Comic Sans", cursive;}
+h1{text-align: center;font-family: "Comic Sans MS", "Comic Sans", cursive;margin-right:800px}
 
-div{background-color: lightgray; border: 2px solid black; width: 700px;height:100px ;font-family: "Comic Sans MS", "Comic Sans", cursive; float: left;text-align:center;}
+div{background-color: lightgray; border: 2px solid black; width: 400px;height:175px ;font-family: "Comic Sans MS", "Comic Sans", cursive; float: left;align-self:center;}
 h2{border-top:0px;border-left:2px; border-right: 0px; border-bottom:2px; border-style: solid; border-color: black;margin:0;float: right}
 #chicken{background-color: pink; width: 90px}
 #beef{
@@ -21,7 +21,15 @@ h2{border-top:0px;border-left:2px; border-right: 0px; border-bottom:2px; border-
 
 }
 #b{
-    position: relative;
-    margin-top:85px;
+    margin:85px;
     
+}
+@media (min-width: 768px) and (max-width:1750px){
+    #s{width:75%;height:110px;margin-top:20px;float:left;}
+}
+@media (min-width: 200px) and (max-width:768px){
+    div{margin-top:10px;margin-right:10px;margin-left:10px}
+    #c{margin:10px}
+    #s{margin:10px}
+    #b{margin:10px}
 }
